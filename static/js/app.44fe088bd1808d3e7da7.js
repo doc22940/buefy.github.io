@@ -1088,12 +1088,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_vm._v("Confirm")]), _vm._v(" "), _c('button', {
     staticClass: "button",
     on: {
-      "click": _vm.confirmDialogCustomWCallback
+      "click": _vm.confirmDialogCustom
     }
   }, [_vm._v("Confirm customized")]), _vm._v(" "), _c('button', {
     staticClass: "button",
     on: {
-      "click": _vm.confirmDialogCustom
+      "click": _vm.confirmDialogCustomWCallback
     }
   }, [_vm._v("Confirm customized with callback")]), _vm._v(" "), _c('hr'), _vm._v(" "), _c('h2', {
     staticClass: "subtitle"
@@ -3714,4 +3714,4 @@ function _open(propsData) {
 /***/ })
 
 },[63]);
-//# sourceMappingURL=app.c4aa7c45dc693d595b77.js.map
+//# sourceMappingURL=app.44fe088bd1808d3e7da7.js.map
