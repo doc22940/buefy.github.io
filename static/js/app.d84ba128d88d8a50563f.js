@@ -1751,7 +1751,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             var height = 400;
             var left = (window.screen.width - width) / 2;
             var top = (window.screen.height - height) / 2;
-            var url = 'https://twitter.com/share?url=' + window.location.href + '&text=Buefy: lightweight Bulma UI components for Vue.js&hashtags=buefy&via=rafaelpimpa';
+            var url = 'https://twitter.com/share?url=' + encodeURI(window.location.href) + '&text=Buefy: lightweight Bulma UI components for Vue.js&hashtags=buefy&via=rafaelpimpa';
             var opts = 'status=1,width=' + width + ',height=' + height + ',top=' + top + ',left=' + left;
 
             window.open(url, '', opts);
@@ -3216,4 +3216,4 @@ function _open(propsData) {
 /***/ })
 
 },[65]);
-//# sourceMappingURL=app.595215835c786665d0e8.js.map
+//# sourceMappingURL=app.d84ba128d88d8a50563f.js.map
