@@ -1598,13 +1598,16 @@ var _components;
         },
         selectable: function selectable(val) {
             if (!val) this.selectedItem = {};
+        },
+        currentSortColumn: function currentSortColumn(column) {
+            this.sort(column);
         }
     },
     computed: {
         visibleData: function visibleData() {
             if (!this.paginated) return this.newData;
 
-            var currentPage = this.currentPage || 1;
+            var currentPage = this.currentPage;
             var perPage = this.perPage;
 
             if (this.newData.length <= perPage) {
@@ -2921,15 +2924,28 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "control"
   }, [_c('span', {
     staticClass: "select is-fullwidth"
-  }, [_c('select', _vm._l((_vm.columns), function(column) {
+  }, [_c('select', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: (_vm.currentSortColumn),
+      expression: "currentSortColumn"
+    }],
+    on: {
+      "change": function($event) {
+        var $$selectedVal = Array.prototype.filter.call($event.target.options, function(o) {
+          return o.selected
+        }).map(function(o) {
+          var val = "_value" in o ? o._value : o.value;
+          return val
+        });
+        _vm.currentSortColumn = $event.target.multiple ? $$selectedVal : $$selectedVal[0]
+      }
+    }
+  }, _vm._l((_vm.columns), function(column) {
     return (column.isSortable) ? _c('option', {
       domProps: {
-        "selected": this.currentSortColumn === column
-      },
-      on: {
-        "click": function($event) {
-          _vm.sort(column)
-        }
+        "value": column
       }
     }, [_vm._v("\n                        " + _vm._s(column.label) + "\n                    ")]) : _vm._e()
   }))])])]) : _vm._e(), _vm._v(" "), _c('table', {
@@ -3016,7 +3032,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
           domProps: {
             "innerHTML": _vm._s(_vm.html ? column.format(cell, item) : null)
           }
-        }) : _vm._e(), _vm._v("\n                        " + _vm._s(!_vm.html ? column.format(cell, item) : null) + "\n                    ")] : _vm._e()
+        }) : _vm._e(), _vm._v(" "), (!_vm.html) ? _c('span', [_vm._v(_vm._s(!_vm.html ? column.format(cell, item) : null))]) : _vm._e()] : _vm._e()
       })], 2)
     })], 2)
   }))]), _vm._v(" "), _c('div', {
@@ -3358,4 +3374,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[42]);
-//# sourceMappingURL=app.2d8a94defa1266b77be9.js.map
+//# sourceMappingURL=app.f466c15a725595e2f890.js.map
