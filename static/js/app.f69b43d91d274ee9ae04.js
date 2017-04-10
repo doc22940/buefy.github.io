@@ -1070,11 +1070,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         }
     },
     watch: {
-        value: function value(val) {
-            this.newValue = val;
+        value: function value(_value) {
+            this.newValue = _value;
         },
-        newValue: function newValue(val) {
-            this.$emit('change', val);
+        newValue: function newValue(value) {
+            this.$emit('change', value);
         }
     },
     methods: {
@@ -1521,6 +1521,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
 
     watch: {
+        value: function value(_value) {
+            this.newValue = _value;
+        },
         newValue: function newValue(value) {
             this.$emit('input', value);
         }
@@ -1587,6 +1590,7 @@ var _components;
             selectedItem: {},
             checkedItems: [],
             currentSortColumn: {},
+            mobileSort: {},
             currentPage: 1,
             isTableComponent: true };
     },
@@ -1596,11 +1600,16 @@ var _components;
             this.newData = value;
             this.currentSortColumn = {};
         },
-        selectable: function selectable(val) {
-            if (!val) this.selectedItem = {};
+        selectable: function selectable(value) {
+            if (!value) this.selectedItem = {};
+        },
+        mobileSort: function mobileSort(column) {
+            if (this.currentSortColumn === column) return;
+
+            this.sort(column);
         },
         currentSortColumn: function currentSortColumn(column) {
-            this.sort(column);
+            this.mobileSort = column;
         }
     },
     computed: {
@@ -1651,6 +1660,7 @@ var _components;
         },
         sort: function sort(column) {
             if (!column.isSortable) return;
+            console.log('SORTING');
 
             if (column === this.currentSortColumn) {
                 column.isAsc = !column.isAsc;
@@ -1715,7 +1725,7 @@ var _components;
                 if (column.field === sortField) {
                     _this3.sort(column);
                     if (direction.toLowerCase() === 'desc') {
-                        _this3.sort(column);
+                        _this3.newData.reverse();
                     }
                 }
             });
@@ -2928,8 +2938,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     directives: [{
       name: "model",
       rawName: "v-model",
-      value: (_vm.currentSortColumn),
-      expression: "currentSortColumn"
+      value: (_vm.mobileSort),
+      expression: "mobileSort"
     }],
     on: {
       "change": function($event) {
@@ -2939,7 +2949,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
           var val = "_value" in o ? o._value : o.value;
           return val
         });
-        _vm.currentSortColumn = $event.target.multiple ? $$selectedVal : $$selectedVal[0]
+        _vm.mobileSort = $event.target.multiple ? $$selectedVal : $$selectedVal[0]
       }
     }
   }, _vm._l((_vm.columns), function(column) {
@@ -2977,6 +2987,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       }),
       on: {
         "click": function($event) {
+          $event.stopPropagation();
           _vm.sort(column)
         }
       }
@@ -3246,11 +3257,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('p', {
-    staticClass: "control is-clearfix",
+    staticClass: "control",
     class: [_vm.iconPosition, {
       'has-icon': _vm.hasIcon,
       'is-expanded': _vm.expanded,
-      'is-loading': _vm.loading
+      'is-loading': _vm.loading,
+      'is-clearfix': !_vm.hasMessage
     }]
   }, [(_vm.type !== 'textarea') ? _c('input', {
     ref: "input",
@@ -3339,10 +3351,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       }
     }
   }) : _vm._e(), _vm._v(" "), (_vm.maxlength) ? _c('small', {
-    staticClass: "help counter",
-    class: {
-      'has-message': _vm.hasMessage
-    }
+    staticClass: "help counter"
   }, [_vm._v(_vm._s(_vm.characteresCount) + " / " + _vm._s(_vm.maxlength))]) : _vm._e()], 1)
 },staticRenderFns: []}
 
@@ -3374,4 +3383,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[42]);
-//# sourceMappingURL=app.f466c15a725595e2f890.js.map
+//# sourceMappingURL=app.f69b43d91d274ee9ae04.js.map
