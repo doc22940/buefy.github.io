@@ -1,0 +1,2 @@
+webpackJsonp([29],{391:function(t,a,n){var e=n(0)(null,n(431),null,null);t.exports=e.exports},431:function(t,a){t.exports={render:function(){var t=this,a=t.$createElement,n=t._self._c||a;return n("div",{staticClass:"nav-left"},[n("router-link",{staticClass:"nav-item is-tab",attrs:{to:"table"}},[t._v("Table")]),t._v(" "),n("router-link",{staticClass:"nav-item is-tab",attrs:{to:"pagination"}},[t._v("Pagination")])],1)},staticRenderFns:[]}}});
+//# sourceMappingURL=29.196f92e4d02a14ca0d6d.js.map
