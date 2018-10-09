@@ -1,2 +1,0 @@
-webpackJsonp([110],{195:function(t,n,e){var r=e(0)(null,e(853),null,null,null);t.exports=r.exports},853:function(t,n){t.exports={render:function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("b-taglist",{attrs:{attached:""}},[e("b-tag",{attrs:{type:"is-dark"}},[t._v("npm")]),t._v(" "),e("b-tag",{attrs:{type:"is-info"}},[t._v("0.5.1")])],1)},staticRenderFns:[]}}});
-//# sourceMappingURL=110.b486bba491db1aa08fbd.js.map
