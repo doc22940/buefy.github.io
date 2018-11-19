@@ -1,0 +1,2 @@
+webpackJsonp([114],{191:function(e,n,t){var l=t(0)(null,t(844),null,null,null);e.exports=l.exports},844:function(e,n){e.exports={render:function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("section",[t("b-tag",[e._v("Tag label")]),e._v(" "),t("b-tag",{attrs:{rounded:""}},[e._v("Rounded tag label")])],1)},staticRenderFns:[]}}});
+//# sourceMappingURL=114.99cb193f6908de19c6b1.js.map
