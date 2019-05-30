@@ -1,0 +1,2 @@
+webpackJsonp([128],{224:function(t,n,e){var r=e(0)(null,e(962),null,null,null);t.exports=r.exports},962:function(t,n){t.exports={render:function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("b-taglist",{attrs:{attached:""}},[e("b-tag",{attrs:{type:"is-dark"}},[t._v("npm")]),t._v(" "),e("b-tag",{attrs:{type:"is-info"}},[t._v("0.5.1")])],1)},staticRenderFns:[]}}});
+//# sourceMappingURL=128.92f678b79c07350f6b41.js.map

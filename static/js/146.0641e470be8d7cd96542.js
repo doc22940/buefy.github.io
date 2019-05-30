@@ -1,0 +1,2 @@
+webpackJsonp([146],{176:function(t,e,n){var r=n(0)(null,n(896),null,null,null);t.exports=r.exports},896:function(t,e){t.exports={render:function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("section",[n("b-field",{attrs:{label:"Vote"}},[n("b-numberinput",{attrs:{min:"0",max:"10"}})],1),t._v(" "),n("b-field",{attrs:{label:"Age"}},[n("b-numberinput",{attrs:{min:"18"}})],1)],1)},staticRenderFns:[]}}});
+//# sourceMappingURL=146.0641e470be8d7cd96542.js.map
