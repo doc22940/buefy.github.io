@@ -1,0 +1,2 @@
+webpackJsonp([180],{117:function(e,t,l){var n=l(0)(null,l(839),null,null,null);e.exports=n.exports},839:function(e,t){e.exports={render:function(){var e=this,t=e.$createElement,l=e._self._c||t;return l("b-field",{attrs:{label:"Select a date"}},[l("b-datepicker",{attrs:{type:"month",placeholder:"Click to select...",icon:"calendar-today"}})],1)},staticRenderFns:[]}}});
+//# sourceMappingURL=180.83d7e9e3d4c9e9f3db2c.js.map
