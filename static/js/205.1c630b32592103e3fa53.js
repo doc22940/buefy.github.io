@@ -1,0 +1,2 @@
+webpackJsonp([205],{102:function(t,n,e){var u=e(0)(null,e(859),null,null,null);t.exports=u.exports},859:function(t,n){t.exports={render:function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("section",[e("div",{staticClass:"buttons"},[e("b-button",[t._v("Button")]),t._v(" "),e("b-button",{attrs:{tag:"a",href:"https://buefy.org",target:"_blank"}},[t._v("\n            Anchor\n        ")]),t._v(" "),e("b-button",{attrs:{tag:"input","native-type":"submit",value:"Submit input"}})],1)])},staticRenderFns:[]}}});
+//# sourceMappingURL=205.1c630b32592103e3fa53.js.map
