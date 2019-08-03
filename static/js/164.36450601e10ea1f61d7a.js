@@ -1,0 +1,2 @@
+webpackJsonp([164],{201:function(e,s,r){var t=r(0)(null,r(986),null,null,null);e.exports=t.exports},986:function(e,s){e.exports={render:function(){var e=this,s=e.$createElement,r=e._self._c||s;return r("section",[r("b-progress",{attrs:{value:20}}),e._v(" "),r("b-progress",{attrs:{type:"is-danger",value:40}}),e._v(" "),r("b-progress",{attrs:{type:"is-success",value:60}}),e._v(" "),r("b-progress",{attrs:{type:"is-info",value:80}}),e._v(" "),r("b-progress",{attrs:{type:"is-warning",value:100}})],1)},staticRenderFns:[]}}});
+//# sourceMappingURL=164.36450601e10ea1f61d7a.js.map

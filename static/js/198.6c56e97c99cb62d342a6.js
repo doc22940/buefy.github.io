@@ -1,0 +1,2 @@
+webpackJsonp([198],{125:function(e,t,n){var r=n(0)(null,n(894),null,null,null);e.exports=r.exports},894:function(e,t){e.exports={render:function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("section",[n("b-field",[n("b-datepicker",{ref:"datepicker",attrs:{expanded:"",placeholder:"Select a date"}}),e._v(" "),n("b-button",{attrs:{"icon-left":"calendar-today",type:"is-primary"},on:{click:function(t){e.$refs.datepicker.toggle()}}})],1)],1)},staticRenderFns:[]}}});
+//# sourceMappingURL=198.6c56e97c99cb62d342a6.js.map
