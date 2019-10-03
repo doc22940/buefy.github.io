@@ -1,0 +1,2 @@
+webpackJsonp([235],{240:function(e,c,o){"use strict";Object.defineProperty(c,"__esModule",{value:!0}),c.default=[{name:"<code>$snackbar-background-color</code>",default:"<code>$dark</code>"},{name:"<code>$snackbar-color</code>",default:"<code>$dark-invert</code>"}]}});
+//# sourceMappingURL=235.8adf24000d2a50f73f93.js.map

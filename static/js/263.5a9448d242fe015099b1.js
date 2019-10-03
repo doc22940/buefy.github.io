@@ -1,0 +1,2 @@
+webpackJsonp([263],{108:function(e,c,o){"use strict";Object.defineProperty(c,"__esModule",{value:!0}),c.default=[{name:"<code>$checkbox-active-background-color</code>",default:"<code>$primary</code>"},{name:"<code>$checkbox-checkmark-color</code>",default:"<code>$primary-invert</code>"},{name:"<code>$checkbox-size</code>",default:"<code>1.25em</code>"}]}});
+//# sourceMappingURL=263.5a9448d242fe015099b1.js.map
