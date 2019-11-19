@@ -1,0 +1,2 @@
+webpackJsonp([196],{1098:function(t,e){var n=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("section",[n("b-field",{attrs:{label:"Vote"}},[n("b-numberinput",{attrs:{min:"0",max:"10"}})],1),t._v(" "),n("b-field",{attrs:{label:"Age"}},[n("b-numberinput",{attrs:{min:"18"}})],1)],1)},r=[];t.exports={render:n,staticRenderFns:r}},223:function(t,e,n){var r=n(0),l=n(1098),a=r(null,l,!1,null,null,null);t.exports=a.exports}});
+//# sourceMappingURL=196.2cd62d0eb453d5204f0a.js.map

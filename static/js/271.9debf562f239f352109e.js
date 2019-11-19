@@ -1,0 +1,2 @@
+webpackJsonp([271],{194:function(o,e,d){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=[{name:"<code>$loading-background</code>",description:"The loading background color",default:"<code>rgba(255,255,255,0.5)</code>"},{name:"<code>$loading-background-legacy</code>",description:"The loading background color for non-rgba compatible browsers",default:"<code>#7f7f7f</code>"}]}});
+//# sourceMappingURL=271.9debf562f239f352109e.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([183],{1145:function(t,e){var n=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("b-steps",[n("b-step-item",{attrs:{label:"Account",icon:"account-key"}}),t._v(" "),n("b-step-item",{attrs:{label:"Profile",icon:"account"}}),t._v(" "),n("b-step-item",{attrs:{label:"Social",icon:"account-plus"}})],1)},c=[];t.exports={render:n,staticRenderFns:c}},267:function(t,e,n){var c=n(0),l=n(1145),s=c(null,l,!1,null,null,null);t.exports=s.exports}});
+//# sourceMappingURL=183.bec2bca735390c8c3d9e.js.map
