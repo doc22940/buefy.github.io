@@ -1,0 +1,2 @@
+webpackJsonp([170],{107:function(e,n,t){var c=t(0)(t(965),t(966),null,null,null);e.exports=c.exports},965:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default={methods:{clickMe:function(){this.$buefy.notification.open("Clicked!!")}}}},966:function(e,n){e.exports={render:function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("section",[t("b-button",{on:{click:e.clickMe}},[e._v("Click Me")])],1)},staticRenderFns:[]}}});
+//# sourceMappingURL=170.5dd85432925eace87b74.js.map
