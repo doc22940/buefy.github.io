@@ -1,0 +1,2 @@
+webpackJsonp([205],{1140:function(e,t){e.exports={render:function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("section",[n("b-field",[n("b-numberinput",{attrs:{step:"5"}})],1),e._v(" "),n("b-field",{attrs:{label:"Decimal"}},[n("b-numberinput",{attrs:{step:"0.01"}})],1)],1)},staticRenderFns:[]}},232:function(e,t,n){var r=n(0)(null,n(1140),null,null,null);e.exports=r.exports}});
+//# sourceMappingURL=205.bfc1fe506b9fdaf804e3.js.map
