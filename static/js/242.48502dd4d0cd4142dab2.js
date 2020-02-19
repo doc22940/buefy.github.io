@@ -1,0 +1,2 @@
+webpackJsonp([242],{1012:function(t,e){t.exports={render:function(){var t=this,e=t.$createElement,s=t._self._c||e;return s("section",[s("div",{staticClass:"buttons"},[s("b-button",{attrs:{size:"is-small"}},[t._v("Small")]),t._v(" "),s("b-button",[t._v("Default")]),t._v(" "),s("b-button",{attrs:{size:"is-medium"}},[t._v("Medium")]),t._v(" "),s("b-button",{attrs:{size:"is-large"}},[t._v("Large")])],1)])},staticRenderFns:[]}},112:function(t,e,s){var n=s(0)(null,s(1012),null,null,null);t.exports=n.exports}});
+//# sourceMappingURL=242.48502dd4d0cd4142dab2.js.map
