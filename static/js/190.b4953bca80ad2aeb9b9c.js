@@ -1,0 +1,2 @@
+webpackJsonp([190],{1384:function(t,e){t.exports={render:function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("b-tabs",{attrs:{type:"is-toggle",expanded:""}},[n("b-tab-item",{attrs:{label:"Pictures",icon:"google-photos"}}),t._v(" "),n("b-tab-item",{attrs:{label:"Music",icon:"library-music"}}),t._v(" "),n("b-tab-item",{attrs:{label:"Videos",icon:"video"}})],1)},staticRenderFns:[]}},312:function(t,e,n){var l=n(0)(null,n(1384),null,null,null);t.exports=l.exports}});
+//# sourceMappingURL=190.b4953bca80ad2aeb9b9c.js.map
